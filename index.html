@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game || Javascript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <div class="bg-white rounded-5 py-5 mt-5 boxHead">
+                    <!-- =============================Player One Name Start================================= -->
+                    <div class="screenItem text-center pOneName">
+                        <h1 class="heading pOneNameHeading">Wanna Play game?</h1>
+                        <input type="text" placeholder="What is your name" class="pOneNameInput">
+                        <button type="submit" class="pOneNameSubmit">Start Game</button>
+                        <h2 class="warning pOneNameWarning">Name Is Missing</h2>
+                    </div>
+                    <!-- =============================Player One Name End================================= -->
+
+                    <!-- =============================Player One Number Start================================= -->
+                    <div class="screenItem text-center pOneNumber">
+                        <h1 class="heading pOneNameHeading">Player - 1</h1>
+                        <input type="text" placeholder="Give a number" class="pOneNumberInput">
+                        <button type="submit" class="pOneNumberSubmit">Let's Play</button>
+                        <h2 class="warning pOneNumberWarning">Please give a number</h2>
+                    </div>
+                    <!-- =============================Player One Number End================================= -->
+
+                    <!-- =============================Player Tow Name Start================================= -->
+                    <div class="screenItem text-center pTowName">
+                        <h1 class="heading pTowNameHeading">Player - 2 Name</h1>
+                        <input type="text" placeholder="What is your name" class="pTowNameInput">
+                        <button type="submit" class="pTowNameSubmit">Start Game</button>
+                        <h2 class="warning pTowNameWarning">Name Is Missing</h2>
+                    </div>
+                    <!-- =============================Player Tow Name End================================= -->
+
+                    <!-- =============================Player Tow Number Start================================= -->
+                    <div class="screenItem text-center pTowNumber">
+                        <h1 class="heading pTowNameHeading">Player - 2</h1>
+                        <p class="chance"></p>
+                        <input type="text" placeholder="Guess a number" class="pTowNumberInput">
+                        <button type="submit" class="pTowNumberSubmit">Guess</button>
+                        <h2 class="warning pTowNumberWarning">Please give a number</h2>
+                    </div>
+                    <!-- =============================Player Tow Number End================================= -->
+
+                    <!-- =============================Game End================================= -->
+                    <div class="screenItem text-center gameEndBox">
+                        <h1 class="gameEnd"></h1>
+                    </div>
+                    <!-- =============================Game End================================= -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

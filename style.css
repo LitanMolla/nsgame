@@ -1,0 +1,146 @@
+/* Common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;   
+}
+
+body{
+    font-family: "Exo 2", sans-serif;
+}
+/* Common Css end */
+
+/* Main Design Start  */
+.boxHead{
+    box-shadow: 0 0 15px white;
+}
+
+.heading{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 80px;
+    padding: 20px;
+    border: 2px solid gray;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+input::placeholder{
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+
+button{
+    background: #7041D3;
+    padding: 10px 80px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: .5s;
+    border: 2px solid #7041D3;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+button:hover{
+    box-shadow: 0 10px 20px #7041D3;
+}
+
+.warning{
+    background: red;
+    color: white;
+    font-weight: 500;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-size: 30px;
+}
+/* Main Design End  */
+
+
+/* Playar Name One Start  */
+.pOneNameWarning{
+    display: none;
+}
+/* Playar Name One End  */
+
+/* Playar Number One Start  */
+.pOneNumberWarning{
+    display: none;
+}
+
+.pOneNumber{
+    display: none;
+}
+/* Playar Number One End  */
+
+/* Playar Name Tow Start  */
+.pTowName{
+    display: none;
+}
+
+.pTowNameWarning{
+    display: none;
+}
+/* Playar Name Tow End  */
+
+/* Playar Tow Number Start  */
+.pTowNumber{
+    display: none;
+}
+
+.pTowNumberWarning{
+    display: none;
+}
+
+.chance{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Playar Tow Number End  */
+
+/* Playar Name One Start  */
+.gameEndBox{
+    display: none;
+    padding: 50px 0;
+}
+
+.gameEnd{
+    font-size: 50px;
+}
+/* Playar Name One End  */
+
+/* Playar Name One Start  */
+/* Playar Name One End  */
+
+/* Playar Name One Start  */
+/* Playar Name One End  */
+
+/* Playar Name One Start  */
+/* Playar Name One End  */
+
+/* Playar Name One Start  */
+/* Playar Name One End  */
+
+/* Playar Name One Start  */
+/* Playar Name One End  */
+
+/* Playar Name One Start  */
+/* Playar Name One End  */
+
+/* Playar Name One Start  */
+/* Playar Name One End  */
+
+/* Playar Name One Start  */
+/* Playar Name One End  */
+
