@@ -102,7 +102,7 @@ pTowNumberSubmit.addEventListener("click", function () {
     if (counter <= 0) {
         pTowNumber.style.display="none";
         gameEndBox.style.display="block";
-        gameEnd.innerHTML="Game Over!"
+        gameEnd.innerHTML="Number not matched <br/> Game Over!"
         return
     }
     if (pTowNumValue == pOneNumberInput.value) {
